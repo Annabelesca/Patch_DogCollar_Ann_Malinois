@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>Annabelesca.PatchDogCollarMalinois</identifier>
+	<version>1.4.23</version>
+	<dependencies>
+        <li>UnlimitedHugs.HugsLib</li>
+		<li>Dylan.AnimalGear</li>
+    </dependencies>
+	<loadAfter>
+		<li>Annabelesca.PatchDogCollarMalinois</li>		
+    </loadAfter>
+    <showCrossPromotions>true</showCrossPromotions>
+    <downloadUri>https://steamcommunity.com/sharedfiles/filedetails/?id=2644644983</downloadUri>
+</Manifest>

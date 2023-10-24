@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<!-- LEATHER COLLAR -->
+
+	<ThingDef Name="DogCollarBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<techLevel>Neolithic</techLevel>
+		<recipeMaker>
+			<researchPrerequisite />
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/Apparel/Accessories/LeatherDogCollar/leatherdogcollar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<Flammability>0.9</Flammability>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.22</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Animal_Apparel</li>
+		</thingCategories>
+		<generateAllowChance>0</generateAllowChance>
+		<apparel>
+		<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Accessories/LeatherDogCollar/leatherdogcollar</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Anything</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+	</ThingDef>
+
+	<ThingDef ParentName="DogCollarBase">
+		<defName>Apparel_leatherdogcollar</defName>
+		<label>Leather Dog Collar</label>
+		<description>A simple leather collar for dogs and other canines. It provides some protection for the neck.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Fox_Arctic</ThingDef>
+			<ThingDef>Fox_Fennec</ThingDef>
+			<ThingDef>Fox_Red</ThingDef>
+			<ThingDef>Husky</ThingDef>
+			<ThingDef>Wolf_Arctic</ThingDef>
+			<ThingDef>Wolf_Timber</ThingDef>
+			<ThingDef>LabradorRetriever</ThingDef>
+			<ThingDef>Warg</ThingDef>
+			<ThingDef>YorkshireTerrier</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.1</Mass>
+		</statBases>
+		<costStuffCount>25</costStuffCount>
+		<apparel>
+			<tags>
+				<li>Animal</li>
+				
+				
+				<!-- Belgian Malinois -->
+				<li>Belgian_Malinois</li>
+				
+				
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	
+
+	
+</Defs>

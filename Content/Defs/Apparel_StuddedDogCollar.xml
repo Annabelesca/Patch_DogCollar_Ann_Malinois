@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<!-- STUDDED COLLAR -->
+
+	<ThingDef Name="StuddedDogCollarBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<researchPrerequisite />
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/Apparel/Accessories/StuddedDogCollar/studdeddogcollar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<Flammability>0.9</Flammability>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.22</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Steel>5</Steel>
+		</costList>
+		<thingCategories>
+			<li>Animal_Apparel</li>
+		</thingCategories>
+		<generateAllowChance>0</generateAllowChance>
+		<apparel>
+		<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Accessories/StuddedDogCollar/studdeddogcollar</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Anything</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+	</ThingDef>
+
+	<ThingDef ParentName="StuddedDogCollarBase">
+		<defName>Apparel_studdeddogcollar</defName>
+		<label>Studded Dog Collar</label>
+		<description>A leather dog collar reinforced with metal studs for added protection.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Fox_Arctic</ThingDef>
+			<ThingDef>Fox_Fennec</ThingDef>
+			<ThingDef>Fox_Red</ThingDef>
+			<ThingDef>Husky</ThingDef>
+			<ThingDef>Wolf_Arctic</ThingDef>
+			<ThingDef>Wolf_Timber</ThingDef>
+			<ThingDef>LabradorRetriever</ThingDef>
+			<ThingDef>Warg</ThingDef>
+			<ThingDef>YorkshireTerrier</ThingDef>
+		</descriptionHyperlinks>
+	
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.1</Mass>
+		</statBases>
+		
+		<apparel>
+			<tags>
+				<li>Animal</li>
+
+				<!-- Belgian Malinois -->
+				<li>Belgian_Malinois</li>
+				
+				
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	
+
+	
+</Defs>

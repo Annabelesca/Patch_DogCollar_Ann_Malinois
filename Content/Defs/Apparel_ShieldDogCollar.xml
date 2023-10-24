@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<!-- SHIELD COLLAR -->
+
+	<ThingDef Name="ShieldDogCollarBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+			<researchPrerequisite>ShieldBelt</researchPrerequisite>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/Apparel/Accessories/ShieldDogCollar/shielddogcollar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<WorkToMake>13900</WorkToMake>
+			<Flammability>0.4</Flammability>
+			<EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>1.1</EnergyShieldEnergyMax>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costStuffCount>25</costStuffCount>
+		
+	<costList>
+		<ComponentIndustrial>2</ComponentIndustrial>
+		<Steel>45</Steel>
+		<Plasteel>15</Plasteel>
+	</costList>
+		<thingCategories>
+			<li>Animal_Apparel</li>
+		</thingCategories>
+		<generateAllowChance>0</generateAllowChance>
+		<apparel>
+		<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Accessories/ShieldDogCollar/shielddogcollar</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Anything</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+	    <comps>
+      <li Class="CompProperties_Shield" />
+    </comps>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ShieldDogCollarBase">
+		<defName>Apparel_shielddogcollar</defName>
+		<label>Shield Dog Collar</label>
+	
+		<tickerType>Normal</tickerType>
+		<description>A projectile-repulsion collar. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Fox_Arctic</ThingDef>
+			<ThingDef>Fox_Fennec</ThingDef>
+			<ThingDef>Fox_Red</ThingDef>
+			<ThingDef>Husky</ThingDef>
+			<ThingDef>Wolf_Arctic</ThingDef>
+			<ThingDef>Wolf_Timber</ThingDef>
+			<ThingDef>LabradorRetriever</ThingDef>
+			<ThingDef>Warg</ThingDef>
+			<ThingDef>YorkshireTerrier</ThingDef>
+		</descriptionHyperlinks>
+	
+		<statBases>
+			<WorkToMake>13900</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.1</Mass>
+		</statBases>
+		
+		<apparel>
+			<tags>
+				<li>Animal</li>
+
+				<!-- Belgian Malinois -->
+				<li>Belgian_Malinois</li>
+				
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	
+
+	
+</Defs>
