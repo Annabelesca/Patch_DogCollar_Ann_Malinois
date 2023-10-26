@@ -5,10 +5,9 @@
 	<dependencies>
         <li>UnlimitedHugs.HugsLib</li>
 		<li>Dylan.AnimalGear</li>
-		<li>Sheanigans.DogCollars</li>
     </dependencies>
 	<loadAfter>
-		<li>Annabelesca.PatchDogCollarMalinois</li>		
+		<li>Annabelesca.Malinois</li>		
     </loadAfter>
     <showCrossPromotions>true</showCrossPromotions>
     <downloadUri>https://steamcommunity.com/sharedfiles/filedetails/?id=2644644983</downloadUri>

@@ -9,16 +9,8 @@
 	 <li>1.4</li>
   </supportedVersions>
   <description>This mod adds four types of collars for Malinois. The dog bow, the leather dog collar, the studded dog collar, and the shield dog collar.</description>
-	<downloadUrl>https://github.com/Annabelesca/Patch_DogCollar_Ann_Malinois/releases/tag/CollarPatchMalinois_v1</downloadUrl>
+	<url>https://github.com/Annabelesca/Patch_DogCollar_Ann_Malinois/releases/tag/CollarPatchMalinois_v1</url>
 <modDependencies>
-
-<li>
-<packageId>UnlimitedHugs.HugsLib</packageId>
-<displayName>HugsLib</displayName>
-<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=818773962</steamWorkshopUrl>
-<downloadUrl>steam://url/CommunityFilePage/818773962</downloadUrl>
-</li>
-
 
 <li>
 <packageId>Dylan.AnimalGear</packageId>
@@ -27,18 +19,10 @@
 <downloadUrl>steam://url/CommunityFilePage/1541438907</downloadUrl>
 </li>
 
-<li>
-<packageId>Shenanigans.DogCollars</packageId>
-<displayName>Dog Collars</displayName>
-<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2644644983</steamWorkshopUrl>
-<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2644644983</downloadUrl>
-</li>
-
 </modDependencies>
 
 <loadAfter>
 	<li>UnlimitedHugs.HugsLib</li>
 	<li>Dylan.AnimalGear</li>
-	<li>Shenanigans.DogCollars</li>
 </loadAfter>
 </ModMetaData>
