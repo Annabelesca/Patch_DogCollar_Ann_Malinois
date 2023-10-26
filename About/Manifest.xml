@@ -5,6 +5,7 @@
 	<dependencies>
         <li>UnlimitedHugs.HugsLib</li>
 		<li>Dylan.AnimalGear</li>
+		<li>Sheanigans.DogCollars</li>
     </dependencies>
 	<loadAfter>
 		<li>Annabelesca.PatchDogCollarMalinois</li>		

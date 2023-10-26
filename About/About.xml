@@ -27,12 +27,19 @@
 <downloadUrl>steam://url/CommunityFilePage/1541438907</downloadUrl>
 </li>
 
+<li>
+<packageId>Shenanigans.DogCollars</packageId>
+<displayName>Dog Collars</displayName>
+<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2644644983</steamWorkshopUrl>
+<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2644644983</downloadUrl>
+</li>	
+
 </modDependencies>
 
 
 <loadAfter>
 <li>UnlimitedHugs.HugsLib</li>
 <li>Dylan.AnimalGear</li>
-
+<li>Shenanigans.DogCollars</li>
 </loadAfter>
 </ModMetaData>
