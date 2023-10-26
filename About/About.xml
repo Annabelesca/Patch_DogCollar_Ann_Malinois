@@ -32,14 +32,13 @@
 <displayName>Dog Collars</displayName>
 <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2644644983</steamWorkshopUrl>
 <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2644644983</downloadUrl>
-</li>	
+</li>
 
 </modDependencies>
 
-
 <loadAfter>
-<li>UnlimitedHugs.HugsLib</li>
-<li>Dylan.AnimalGear</li>
-<li>Shenanigans.DogCollars</li>
+	<li>UnlimitedHugs.HugsLib</li>
+	<li>Dylan.AnimalGear</li>
+	<li>Shenanigans.DogCollars</li>
 </loadAfter>
 </ModMetaData>
